@@ -1,4 +1,4 @@
-.PHONY: slides.html
+.PHONY: index.html
 
-slides.html: slides.md
-	pandoc -t revealjs --template=template-revealjs.html --standalone --section-divs --variable transition="convex" slides.md -o slides.html
+index.html: index.md
+	pandoc -t revealjs --template=template-revealjs.html --standalone --section-divs --variable transition="convex" index.md -o index.html
