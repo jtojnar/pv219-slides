@@ -1,0 +1,12 @@
+body {
+	margin-top: 10em;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16pt;
+}
+
+
+#chat {
+	width: 20em;
+	height: 10em;
+}
